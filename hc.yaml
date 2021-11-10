@@ -1,8 +1,3 @@
-#!MANAGED-CONFIG https://ths1f9qf.xyz/link/sGLLs0Pe1SgWM7RY?clash=2&new=1
-
-#---------------------------------------------------#
-## 涓婃鏇存柊浜庯細2021-07-07 02:17:16
-#---------------------------------------------------#
 
 port: 7890
 socks-port: 7891
@@ -158,13 +153,13 @@ proxies:
       Host: aws-beijing-1.dnspro.icu
   - 
     name: 168hax.guweidong.site_vmess_ws
-    server: 168hax.guweidong.site,
-    port: 443,
+    server: 168hax.guweidong.site
+    port: 443
     type: vmess, 
     uuid: c1ee7229-a186-4faf-8da9-bb67e331ae7e,
     alterId: 0
     cipher: auto 
-    tls: true, 
+    tls: true
     skip-cert-verify: false, 
     network: ws 
     udp: true}
@@ -192,18 +187,20 @@ proxies:
     port: 443
     type: vmess
     uuid: f6a6c3f7-9929-435a-9f80-be17b4ffab12
-    alterId: 0, cipher: auto
+    alterId: 0
+    cipher: auto
     tls: true
     skip-cert-verify: false
     network: ws
     ws-path: /lenevws
     ws-headers: 
       Host: 162hax.guweidong.site
-    udp: true}
+    udp: true
   -
     name: 168hax.guweidong.site_vmess_ws 2
     server: 168hax.guweidong.site
-    port: 443, type: vmess
+    port: 443
+    type: vmess
     uuid: c1ee7229-a186-4faf-8da9-bb67e331ae7e
     alterId: 0
     cipher: auto
@@ -213,7 +210,7 @@ proxies:
     ws-path: /wvkcvws
     ws-headers: 
       Host: 168hax.guweidong.site 
-    udp: true}
+    udp: true
   -
     name: 155hax.guweidong.site_vmess_ws 
     server: 155hax.guweidong.site
@@ -256,7 +253,9 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-path: /qhmshvws
-    ws-headers: {Host: d.blog.guwd.tk}, udp: true}
+    ws-headers: 
+      Host: d.blog.guwd.tk
+    udp: true
   - 
     name: e.blog.guweidong.site_vmess_ws
     server: e.blog.guweidong.site
@@ -271,7 +270,7 @@ proxies:
     ws-path: /tmoqvws
     ws-headers: 
       Host: e.blog.guweidong.site
-    udp: true}
+    udp: true
   -
     name: b.blog.guwd.tk_vmess_ws
     server: b.blog.guwd.tk
@@ -285,7 +284,8 @@ proxies:
     network: ws
     ws-path: /myaivws 
     ws-headers: 
-      Host: b.blog.guwd.tk}, udp: true
+      Host: b.blog.guwd.tk
+    udp: true
 proxy-groups:
   -
     name: 馃敯鍥藉娴侀噺
