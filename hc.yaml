@@ -156,14 +156,14 @@ proxies:
     server: 168hax.guweidong.site
     port: 443
     type: vmess, 
-    uuid: c1ee7229-a186-4faf-8da9-bb67e331ae7e,
+    uuid: a945ae16-d06d-4d3c-af9c-c93145940881 
     alterId: 0
     cipher: auto 
     tls: true
-    skip-cert-verify: false, 
+    skip-cert-verify: false 
     network: ws 
     udp: true}
-    ws-path: /wvkcvws
+    ws-path: /aylnvws
     ws-headers: 
       Host: 168hax.guweidong.site
   - 
@@ -186,13 +186,13 @@ proxies:
     server: 162hax.guweidong.site
     port: 443
     type: vmess
-    uuid: f6a6c3f7-9929-435a-9f80-be17b4ffab12
+    uuid: a945ae16-d06d-4d3c-af9c-c93145940881 
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
     network: ws
-    ws-path: /lenevws
+    ws-path: /aylnvws
     ws-headers: 
       Host: 162hax.guweidong.site
     udp: true
@@ -201,13 +201,13 @@ proxies:
     server: 168hax.guweidong.site
     port: 443
     type: vmess
-    uuid: c1ee7229-a186-4faf-8da9-bb67e331ae7e
+    uuid: a945ae16-d06d-4d3c-af9c-c93145940881 
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false
     network: ws
-    ws-path: /wvkcvws
+    ws-path: /aylnvws
     ws-headers: 
       Host: 168hax.guweidong.site 
     udp: true
@@ -216,13 +216,13 @@ proxies:
     server: 155hax.guweidong.site
     port: 443
     type: vmess
-    uuid: 7cac510c-b88f-4379-a2c3-e2dfc3dfc722
+    uuid: a945ae16-d06d-4d3c-af9c-c93145940881 
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: false,
     network: ws
-    ws-path: /csazvws
+    ws-path: /aylnvws
     ws-headers: 
       Host: 155hax.guweidong.site
     udp: true
@@ -231,7 +231,7 @@ proxies:
     server: eu.guwd.tk
     port: 443
     type: vmess
-    uuid: dc6258a9-e167-4bd9-b36c-ddd483e4d387
+    uuid: a945ae16-d06d-4d3c-af9c-c93145940881 
     alterId: 1
     cipher: auto
     tls: true 
